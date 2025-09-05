@@ -2,7 +2,7 @@ services:
   - type: web
     name: rastreador-sao-joao
     env: docker
-    plan: starter            # para ficar 24/7 (free hiberna)
+    plan: free           
     region: oregon           # escolha a região mais próxima de você
     healthCheckPath: /
     autoDeploy: true
