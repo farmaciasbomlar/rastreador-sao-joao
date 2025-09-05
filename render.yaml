@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: rastreador-sao-joao
+    env: docker
+    plan: starter            # para ficar 24/7 (free hiberna)
+    region: oregon           # escolha a região mais próxima de você
+    healthCheckPath: /
+    autoDeploy: true
+    # Variáveis opcionais do container
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
