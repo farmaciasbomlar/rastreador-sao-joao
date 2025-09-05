@@ -2,11 +2,7 @@ services:
   - type: web
     name: rastreador-sao-joao
     env: docker
-    plan: free           
-    region: oregon           # escolha a região mais próxima de você
+    plan: free
+    region: oregon
     healthCheckPath: /
     autoDeploy: true
-    # Variáveis opcionais do container
-    envVars:
-      - key: PYTHONUNBUFFERED
-        value: "1"
