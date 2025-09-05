@@ -1,0 +1,7 @@
+Na busca apresenta o resultado de forma textual.
+No Upload, posso subir uma planilha.
+
+Tem um terceiro "botão", responsável por baixar a planilha de resultados de qualquer opção acima.
+
+A planilha de resultado do BUSCA não trouxe nome para o produto.
+
